@@ -1,0 +1,26 @@
+{
+  "name": "crawl",
+  "version": "1.0.0",
+  "description": "Using nodejs to crawl website pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morningClock/node-crawl.git"
+  },
+  "author": "morningClock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morningClock/node-crawl/issues"
+  },
+  "homepage": "https://github.com/morningClock/node-crawl#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.5.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
